@@ -11,7 +11,7 @@
     },
     
      "data": {
-      "url": "https://raw.githubusercontent.com/ujwalgurung1/ujwalgurung1.github.io/main/mycoviddata.csv",
+      "url": "https://raw.githubusercontent.com/ujwalgurung1/ujwalgurung1.github.io/main/data/mycoviddata.csv",
       "format": {"type": "csv"}
     },
   
@@ -54,7 +54,7 @@
         "title": "LEGEND TITLE",
         "legend": {
           "orient": "top-left", 
-          "fillColor": "#FcFdFd"}
+          "fillColor": "#ffffff"}
       }
   }
   }
