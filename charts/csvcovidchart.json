@@ -41,7 +41,7 @@
       },
   
       "y": {
-        "field": "VARIABLE YOU ARE MEASURING HERE",
+        "field": "newCasesByPublishDateRollingRate",
         "type": "quantitative",
         "title": null,
         "axis": {"grid": false}
