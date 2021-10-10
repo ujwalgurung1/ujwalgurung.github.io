@@ -4,10 +4,14 @@
 
 <head>
 
+<title>Ujwal Gurung</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
+
 <!--The next three lines allow the Vega embed-->
 <script src="https://cdn.jsdelivr.net/npm/vega@5.17.0"></script>
 <script src="https://cdn.jsdelivr.net/npm/vega-lite@4.17.0"></script>
 <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.12.2"></script>
+<link rel="stylesheet" href="portfolio.css">
 
 </head>
 
@@ -18,6 +22,19 @@
 <!-- ///////////////////  START BODY //////////////////////////////////// -->
 
 <body>
+
+
+<container class="hcontainer">
+<header>
+<h1>Data Science</h1>
+<h2>ECON30006: Ujwal Gurung</h2>
+</header>
+</container>
+
+<p class="bodyText"><span style="color: rgb(19, 143, 242); font-weight: 700;">Week 1: </span>Introduction</p>
+
+<container class="bcontainer"></container>
+
 
 <!--Chart 1 showing covid cases by region -->
   <div class="chart" id="chart1">
@@ -52,7 +69,12 @@
 </div>
 
 
+</container>
 
+
+<p class="bodyText"><span style="color: rgb(19, 143, 242); font-weight: 700;">Week 2: </span>API and CSV</p>
+
+<container class="bcontainer"></container>
 
 <!--Chart 5 -->
 <div class="chart" id="chart5">
@@ -69,6 +91,8 @@
       vegaEmbed('#chart6', myChart6);
     </script>
 </div>
+
+</container>
   
 </body>
 <!-- ///////////////////  END BODY //////////////////////////////////// -->
