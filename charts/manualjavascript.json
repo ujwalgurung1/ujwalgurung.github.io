@@ -1,0 +1,33 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "description": "Vaccination Age Demographic 10/10/2021",
+    "title": {
+      "text": "Vaccination Age Demographic 10/10/2021 Bristol",
+      "subtitle":"Total vaccinations by age group",
+      "subtitleFontStyle":"italic",
+      "subtitleFontSize":10,
+      "anchor": "start",
+      "color": "black"
+    },
+
+    "height": 300,
+    "width": 800,
+
+    "data": {
+      "values": [
+        {"a": "12-15", "b": 21429}, {"a": "16-17", "b": 10246}, {"a": "18-24", "b": 64118},
+        {"a": "25-29", "b": 53733}, {"a": "30-34", "b": 53347}, {"a": "35-39", "b": 46028},
+        {"a": "40-44", "b": 37477}, {"a": "45-49", "b": 31558}, {"a": "50-54", "b": 29502},
+        {"a": "55-59", "b": 27535}, {"a": "60-64", "b": 22133}, {"a": "65-69", "b": 17964},
+        {"a": "70-74", "b": 16541}, {"a": "75-79", "b": 11597}, {"a": "80-84", "b": 8170},
+        {"a": "85-89", "b": 5082}, {"a": "90+", "b": 2911}
+      ]
+    },
+    "mark": "bar",
+    "encoding": {
+      "x": {"field": "a", "title": "Age group", "type": "nominal", "axis": {"labelAngle": 0}},
+      "y": {"field": "b", "title": "Total number of people","type": "quantitative"}
+      
+  }
+  
+  }

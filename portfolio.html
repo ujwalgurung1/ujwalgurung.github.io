@@ -11,11 +11,12 @@
 <script src="https://cdn.jsdelivr.net/npm/vega@5.17.0"></script>
 <script src="https://cdn.jsdelivr.net/npm/vega-lite@4.17.0"></script>
 <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.12.2"></script>
+
 <link rel="stylesheet" href="portfolio.css">
 
 </head>
 
-<!-- ///////////////////  HEAD //////////////////////////////////// -->
+<!-- ///////////////////  END HEAD //////////////////////////////////// -->
 
 
 
@@ -23,26 +24,33 @@
 
 <body>
 
-
 <container class="hcontainer">
+
 <header>
 <h1>Data Science</h1>
 <h2>ECON30006: Ujwal Gurung</h2>
 </header>
+
 </container>
+
+
+<!-- ///////////////////   Week 1 Start //////////////////////////////////// -->
 
 <p class="bodyText"><span style="color: #53d9d1; font-weight: 700;">Week 1: </span>Introduction</p>
 
-<container class="bcontainer"></container>
-
+<container class="bcontainer">
 
 <!--Chart 1 showing covid cases by region -->
-  <div class="chart" id="chart1">
-      <script>
-        var myChart1 = "charts/ukregioncovidchart.json";
-        vegaEmbed('#chart1', myChart1);
-      </script>
-  </div>
+    <div class="chart" id="chart1">
+        <script>
+          var myChart1 = "charts/ukregioncovidchart.json";
+          vegaEmbed('#chart1', myChart1);
+        </script>
+    </div>
+</container>
+
+
+<container class="bcontainer">
 
 <!--Chart 2 showing UK productivity levels over time -->
 <div class="chart" id="chart2">
@@ -60,6 +68,10 @@
     </script>
 </div>
 
+</container>
+
+<container class="bcontainer">
+
 <!--Chart 4 showing bitcoin prices -->
 <div class="chart" id="chart4">
     <script>
@@ -71,10 +83,14 @@
 
 </container>
 
+<!-- ///////////////////   Week 1 End //////////////////////////////////// -->
+
+<!-- ///////////////////   Week 2 Start //////////////////////////////////// -->
+
 
 <p class="bodyText"><span style="color: #53d9d1; font-weight: 700;">Week 2: </span>API and CSV</p>
 
-<container class="bcontainer"></container>
+<container class="bcontainer">
 
 <!--Chart 5 -->
 <div class="chart" id="chart5">
@@ -93,7 +109,48 @@
 </div>
 
 </container>
-  
+
+<!-- ///////////////////   Week 2 End //////////////////////////////////// -->
+
+<!-- ///////////////////   Week 3 Start //////////////////////////////////// -->
+
+
+
+<p class="bodyText"><span style="color: #53d9d1; font-weight: 700;">Week 3: </span>Javascript Manual & CSV (to come soon)</p>
+
+<container class="bcontainer">
+
+
+<!--Chart 7 -->
+<div class="chart" id="chart7">
+    <script>
+      var myChart7 = "charts/manualjavascript.json";
+      vegaEmbed('#chart7', myChart7);
+    </script>
+</div>
+
+</container>
+
+<container class="bcontainer">
+
+
+<!--Chart 8 -->
+<div class="chart" id="chart8">
+    <script>
+      var myChart8 = "charts/csvjavascript.json";
+      vegaEmbed('#chart8', myChart8);
+    </script>
+</div>
+
+</container>
+
+<!-- ///////////////////   Week 3 End //////////////////////////////////// -->
+
+
+
+
+
+
 </body>
 <!-- ///////////////////  END BODY //////////////////////////////////// -->
 

@@ -3,7 +3,7 @@
     
     "title": {
       "text": "CSV: New Covid Cases by Rolling Rate",
-      "subtitle":"Sub-title here",
+      "subtitle":"New Covid cases by rolling rate",
       "subtitleFontStyle":"italic",
       "subtitleFontSize":10,
       "anchor": "start",
