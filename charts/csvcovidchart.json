@@ -19,7 +19,7 @@
         
         {"filter": {
           "field": "areaName", 
-          "oneOf": ["Surrey Heath", "Westminster", "Barnet"]}
+          "oneOf": ["Surrey Heath"]}
           }
   
   
