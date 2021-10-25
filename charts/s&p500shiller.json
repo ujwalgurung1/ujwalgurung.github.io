@@ -1,0 +1,41 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  
+  "title": {
+    "text": "API: Shiller PE Ratio by Month",
+    "subtitle":"Shiller PE Ratio by Month",
+    "subtitleFontStyle":"italic",
+    "subtitleFontSize":10,
+    "anchor": "start",
+    "color": "black"
+  },
+  
+   "data": {
+    "url": "https://data.nasdaq.com/api/v3/datasets/MULTPL/SHILLER_PE_RATIO_MONTH.csv?api_key=aVdKhvssQjygztDQm1wm",
+    "format": {"type": "csv"}
+  },
+
+  
+  
+  "height": 300,
+  "width": 600,
+   
+  "mark": {"type": "line", "point": false},
+ 
+  "encoding": {
+
+    "x": {
+      "field": "Date",
+      "type": "temporal",
+      "title": null,
+      "axis": {"grid": false}
+    },
+
+    "y": {
+      "field": "Value",
+      "type": "quantitative",
+      "title": null,
+      "axis": {"grid": false}
+    }
+}
+}
