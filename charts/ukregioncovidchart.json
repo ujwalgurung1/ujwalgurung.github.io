@@ -17,9 +17,9 @@
 
 
 
-  "height": 300,
+  "height": 280,
   
-  "width": 350,
+  "width": 300,
   
   "mark": {"type": "bar", "width":10},
   

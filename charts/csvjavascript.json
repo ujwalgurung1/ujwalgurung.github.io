@@ -26,8 +26,8 @@
       ],
     
     
-    "height": 500,
-    "width": 500,
+    "height": 280,
+    "width": 300,
      
     "mark": {"type": "line", "point": false},
    
