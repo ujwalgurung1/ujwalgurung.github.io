@@ -72,7 +72,7 @@
 
       "mark":{
         "type": "line",    
-        "color":"#00BFFF",
+        "color":"#ff6e54",
         "width": 10,
         "strokeWidth":2,
         "opacity":1},

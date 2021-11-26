@@ -29,7 +29,12 @@
     "height": 280,
     "width": 300,
      
-    "mark": {"type": "line", "point": false},
+    "mark": {
+      "type": "line",
+      "point": false,
+      "interpolate": "linear",
+      "color":"#444e86"
+    },
    
     "encoding": {
   
@@ -54,7 +59,8 @@
         "title": "Local Authority Area",
         "legend": {
           "orient": "top-left", 
-          "fillColor": "#ffffff"}
+          "fillColor": "#ffffff"},
+        "scale": {"domain": ["Surrey Heath"], "range": ["#444e86"]}
       }
   }
   }

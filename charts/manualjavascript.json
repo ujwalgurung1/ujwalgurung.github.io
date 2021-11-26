@@ -23,7 +23,10 @@
         {"a": "85-89", "b": 5082}, {"a": "90+", "b": 2911}
       ]
     },
-    "mark": "bar",
+    "mark": {
+      "type": "bar",
+      "color":"#444e86"
+    },
     "encoding": {
       "x": {"field": "a", "title": "Age group", "type": "nominal", "axis": {"labelAngle": 0}},
       "y": {"field": "b", "title": "Total number of people","type": "quantitative"}
