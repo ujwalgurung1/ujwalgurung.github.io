@@ -25,7 +25,7 @@
     "encoding": {
   
       "x": {
-        "field": "Time Series (5min)",
+        "field": "Monthly Time Series",
         "type": "temporal",
         "title": null,
         "axis": {"grid": false}
