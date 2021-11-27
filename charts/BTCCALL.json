@@ -15,7 +15,7 @@
   },
   
   "height": 300,
-  "width": 320,
+  "width": 280,
    
   "mark": {"type": "line", 
   "point": false,
@@ -37,7 +37,7 @@
       "type": "quantitative",
       "title": null,
       "axis": {"grid": false},
-      "scale": {"domain": [42000,70000]}
+      "scale": {"domain": [30000,60000]}
     }
 }
 }
