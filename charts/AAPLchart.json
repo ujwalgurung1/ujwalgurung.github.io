@@ -1,0 +1,50 @@
+{
+  
+  
+      
+    "title": {
+      "text": "Apple Share Price Chart",
+      "subtitle":"Price at close, USD",
+      "subtitleFontStyle":"italic",
+      "subtitleFontSize":10,
+      "anchor": "start",
+      "color": "black"
+    },
+    
+     "data": {
+      "url": "data/APPL.json",
+      "format": {"type": "json"}
+    },
+  
+    
+    "height": 300,
+    "width": 280,
+     
+    "mark": {"type": "line", "point": false, "color": "red"},
+   
+    "encoding": {
+  
+      "x": {
+        "field": "date",
+        "type": "temporal",
+        "title": null,
+        "axis": {"grid": false}
+      },
+  
+      "y": {
+        "field": "close",
+        "type": "quantitative",
+        "title": null,
+        "axis": {"grid": false}
+      },
+  
+      "color": {
+        "type": "nominal",
+        "scale": {"scheme": "set1"},
+        "title": "Areas",
+        "legend": {
+          "orient": "top-left", 
+          "fillColor": "transparent"}
+      }
+  }
+  }
