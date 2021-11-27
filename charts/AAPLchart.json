@@ -32,7 +32,7 @@
       },
   
       "y": {
-        "field": "close",
+        "field": "4. close",
         "type": "quantitative",
         "title": null,
         "axis": {"grid": false}
