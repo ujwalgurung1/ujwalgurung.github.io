@@ -1,32 +1,39 @@
 {
-    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "title": {
-        "text": "Listed 3 Bed Homes in Bristol on Rightmove",
-        "subtitle":"Price, Source: Rightmove",
+  "data": {
+        "url": "https://raw.githubusercontent.com/ujwalgurung1/ujwalgurung1.github.io/main/data/Actual.csv",
+        "format": {"type": "csv"}
+      },
+  "title": {
+        "text": "Listed 3 Bed Homes in Bristol on Rightmove - 29th November 2021",
+        "subtitle":"Price £, Source: Rightmove",
         "subtitleFontStyle":"italic",
         "subtitleFontSize":10,
         "anchor": "start",
         "color": "black"
       },
-    "data": {
-        "url": "https://raw.githubusercontent.com/ujwalgurung1/ujwalgurung1.github.io/main/data/Actual.csv",
-        "format": {"type": "csv"}
-      },
-    "height": 280,
-    "width": 800,
-    "layer": [{
-      "mark": "bar",
-      "encoding": {
-        "x": {"field": "price", "bin": true, "title": null},
+      
+  "height": 280,
+  "width": 800,
+  
+  
+  "layer":[
+    {
+    "mark": "bar",
+    "encoding": {
+      "x": {
+        "bin": {"maxbins": 30},
+        "field": "price",
+        "title": null
+        },
         "y": {"aggregate": "count", "title": "Number of Homes"}
-      }
-    },{
+    }
+  },
+  {
       "mark": "rule",
       "encoding": {
-        "x": {"aggregate": "median", "field": "price"},
+        "x": {"aggregate": "mean", "field": "price"},
         "color": {"value": "red"},
         "size": {"value": 5}
       }
     }]
-  }
-  
+}
