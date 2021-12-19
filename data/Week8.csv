@@ -1,4 +1,4 @@
-indicator,date,value 
+indicator,date,price 
 cpi,2020-01-01,1.80
 cpi,2020-02-01,1.70
 cpi,2020-03-01,1.50
