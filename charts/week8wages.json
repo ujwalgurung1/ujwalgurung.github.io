@@ -1,10 +1,11 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "data": {
-        "url": "https://raw.githubusercontent.com/ujwalgurung1/ujwalgurung1.github.io/main/data/Week8.csv"
+        "url": "https://raw.githubusercontent.com/ujwalgurung1/ujwalgurung1.github.io/main/data/Week8.csv",
+        "format": {"type": "csv"}
       },
-    "width": 400,
-    "height": 300,
+    "width": 500,
+    "height": 280,
   
      "title": {
       "text": "UK wage growth and inflation are converging",
