@@ -17,8 +17,8 @@
 
   
   
-  "height": 300,
-  "width": 800,
+  "height": 280,
+  "width": 350,
    
   "mark": {
     "type": "line",
