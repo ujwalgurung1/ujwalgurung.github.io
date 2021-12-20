@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+
+<!-- ///////////////////  HEAD //////////////////////////////////// -->
+
+<head>
+
+<title>Ujwal Gurung</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
+
+<!--The next three lines allow the Vega embed-->
+<script src="https://cdn.jsdelivr.net/npm/vega@5.17.0"></script>
+<script src="https://cdn.jsdelivr.net/npm/vega-lite@4.17.0"></script>
+<script src="https://cdn.jsdelivr.net/npm/vega-embed@6.12.2"></script>
+
+<link rel="stylesheet" href="portfolio.css">
+
+</head>
+
+<!-- ///////////////////  END HEAD //////////////////////////////////// -->
+
+
+
+
+<!-- ///////////////////  START BODY //////////////////////////////////// -->
+
+<body>
+
+<container class="hcontainer">
+
+<header>
+<h1>Data Science</h1>
+<h2>ECON30006: Ujwal Gurung</h2>
+</header>
+
+</container>
+
+
+<!-- ///////////////////   Week 1 Start //////////////////////////////////// -->
+
+<p class="bodyText"><span style="color: #53d9d1; font-weight: 700;">Week 1: </span>Introduction</p>
+
+<container class="bcontainer">
+
+<!--Chart 1 showing covid cases by region -->
+    <div class="chart" id="chart1">
+        <script>
+          var myChart1 = "charts/ukregioncovidchart.json";
+          vegaEmbed('#chart1', myChart1);
+        </script>
+    </div>
+
+<!--Chart 2 showing UK productivity levels over time -->
+<div class="chart" id="chart2">
+  <script>
+    var myChart2 = "charts/ukproductivity.json";
+    vegaEmbed('#chart2', myChart2);
+  </script>
+</div>
+</container>
+
+
+<!-- ///////////////////   Week 1 End //////////////////////////////////// -->
+
+
+
+
+</body>
+<!-- ///////////////////  END BODY //////////////////////////////////// -->
+
+</html>
