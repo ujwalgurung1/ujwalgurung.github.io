@@ -1,9 +1,9 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "data": {
-            "url": "https://raw.githubusercontent.com/ujwalgurung1/ujwalgurung1.github.io/main/data/Week8.csv",
-            "format": {"type": "csv"}
-          },
+          "url": "https://raw.githubusercontent.com/ujwalgurung1/ujwalgurung1.github.io/main/data/Week8.csv",
+          "format": {"type": "csv"}
+        },
     "width": 400,
     "height": 300,
     "encoding": {"x": {"field": "date", "type": "temporal"}},
@@ -44,3 +44,4 @@
       }
     ]
   }
+  
