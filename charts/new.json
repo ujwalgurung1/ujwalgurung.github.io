@@ -1,47 +1,25 @@
 {
-    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "data": {
-          "url": "https://raw.githubusercontent.com/ujwalgurung1/ujwalgurung1.github.io/main/data/Week8.csv",
-          "format": {"type": "csv"}
-        },
-    "width": 400,
-    "height": 300,
-    "encoding": {"x": {"field": "date", "type": "temporal"}},
-    "layer": [
-      {
-        "encoding": {
-          "color": {"field": "indicator", "type": "nominal"},
-          "y": {"field": "unit", "type": "quantitative"}
-        },
-        "layer": [
-          {"mark": "line"},
-          {"transform": [{"filter": {"param": "hover", "empty": false}}], "mark": "point"}
-        ]
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Stock prices of 5 Tech Companies over Time.",
+  "data": {
+        "url": "https://raw.githubusercontent.com/ujwalgurung1/ujwalgurung1.github.io/main/data/Week8.csv",
+        "format": {"type": "csv"}
       },
-      {
-        "transform": [{"pivot": "indicator", "value": "unit", "groupby": ["date"]}],
-        "mark": "rule",
-        "encoding": {
-          "opacity": {
-            "condition": {"value": 0.3, "param": "hover", "empty": false},
-            "value": 0
-          },
-          "tooltip": [
-            {"field": "cpi", "type": "quantitative"},
-            {"field": "wage", "type": "quantitative"}
-          ]
-        },
-        "params": [{
-          "name": "hover",
-          "select": {
-            "type": "point",
-            "fields": ["date"],
-            "nearest": true,
-            "on": "mouseover",
-            "clear": "mouseout"
-          }
-        }]
-      }
-    ]
-  }
+    "width": 300,
+    "height": 280,
   
+     "title": {
+      "text": "UK wage growth and inflation are converging",
+      "subtitle":"Annual % change. Source: ONS",
+      "subtitleFontStyle":"italic",
+      "subtitleFontSize":10,
+      "anchor": "start",
+      "color": "black"
+    },
+  "mark": "line",
+  "encoding": {
+    "x": {"field": "date", "type": "temporal"},
+    "y": {"field": "unit", "type": "quantitative"},
+    "color": {"field": "indicator", "type": "nominal"}
+  }
+}
