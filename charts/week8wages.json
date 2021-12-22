@@ -3,10 +3,7 @@
     "data": {
         "url": "https://raw.githubusercontent.com/ujwalgurung1/ujwalgurung1.github.io/main/data/Week8.csv",
         "format": {"type": "csv"}
-      },
-    "width": 500,
-    "height": 280,
-  
+      },  
      "title": {
       "text": "UK wage growth and inflation are converging",
       "subtitle":"Annual % change. Source: ONS",
@@ -15,7 +12,8 @@
       "anchor": "start",
       "color": "black"
     },
-    
+    "width":280,
+  "height":300,
     
     "layer": [
       {

@@ -1,6 +1,6 @@
 {
-    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "description": "Vaccination Age Demographic 10/10/2021",
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Vaccination Age Demographic 10/10/2021",
     "title": {
       "text": "Vaccination Age Demographic 10/10/2021 Bristol",
       "subtitle":"Total vaccinations by age group",
@@ -9,11 +9,9 @@
       "anchor": "start",
       "color": "black"
     },
-
-    "height": 300,
-    "width": 800,
-
-    "data": {
+    "width":280,
+    "height":300,
+  "data": {
       "values": [
         {"a": "12-15", "b": 21429}, {"a": "16-17", "b": 10246}, {"a": "18-24", "b": 64118},
         {"a": "25-29", "b": 53733}, {"a": "30-34", "b": 53347}, {"a": "35-39", "b": 46028},
@@ -23,14 +21,45 @@
         {"a": "85-89", "b": 5082}, {"a": "90+", "b": 2911}
       ]
     },
-    "mark": {
-      "type": "bar",
-      "color":"#444e86"
+  "params": [
+    {
+      "name": "highlight",
+      "select": {"type": "point", "on": "mouseover"}
     },
-    "encoding": {
-      "x": {"field": "a", "title": "Age group", "type": "nominal", "axis": {"labelAngle": 0}},
-      "y": {"field": "b", "title": "Total number of people","type": "quantitative"}
-      
+    {"name": "select", "select": "point"}
+  ],
+  "mark": {
+    "type": "bar",
+    "fill": "#444e86",
+    "stroke": "black",
+    "cursor": "pointer"
+  },
+  "encoding": {
+    "x": {"field": "a", "type": "ordinal",  "title": ""},
+    "y": {"field": "b", "type": "quantitative", "title": ""},
+    "fillOpacity": {
+      "condition": {"param": "select", "value": 1},
+      "value": 0.3
+    },
+    "strokeWidth": {
+      "condition": [
+        {
+          "param": "select",
+          "empty": false,
+          "value": 2
+        },
+        {
+          "param": "highlight",
+          "empty": false,
+          "value": 1
+        }
+      ],
+      "value": 0
+    }
+  },
+  "config": {
+    "scale": {
+      "bandPaddingInner": 0.2
+    }
   }
-  
-  }
+}
