@@ -123,7 +123,17 @@ footer {
   font-weight: lighter;
   text-align: none;
 }
-
+.barchart {
+  background-color: white;
+  border-style: solid;
+  border-color: white;
+  border-width: 3px;
+  border-radius: 25px;
+  padding: 20px;
+  transition: border-radius 400ms, flex-grow 1000ms;
+  width: 45%;
+  min-width: 350px;
+}
 .html{
   background-color: white;
   border-style: solid;
