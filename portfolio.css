@@ -115,3 +115,22 @@ footer {
   height: 100%;
   object-fit: cover;
 }
+.project-page-text {
+  color: white;
+  margin-bottom: -22px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 21px;
+  font-weight: lighter;
+  text-align: none;
+}
+
+.html{
+  background-color: white;
+  border-style: solid;
+  border-color: white;
+  border-width: 2px;
+  border-radius: 25px;
+  text-align: center;
+  padding: 20px;
+  transition: padding 500ms, border-radius 500ms;
+}

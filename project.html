@@ -36,26 +36,33 @@
 
 
 <!-- ///////////////////   Week 1 Start //////////////////////////////////// -->
+<!-- /////////////////// INTRO TEXT //////////////////////////////////// -->
 
-<p class="bodyText"><span style="color: #53d9d1; font-weight: 700;">Week 1: </span>Introduction</p>
+<h3>UK Economy - The Impact of House Prices </h3>
+<p class="project-page-text"><span style="font-weight: 700;">Housing - </span> 
+
+Is a rising price of housing a net benefit on the UK Economy?<br>
+
+This project aims to analyse the impact of rising house prices and how this affects economy wide factors. This data has interesting implications on government policy. However, there are a number of complex factors at play in addition to 
+House Prices which affects wealth inequlity , so this project will simply build on this one area and will not consider factors that are difficult to quantify.
+</p>
+
+
+
+<hr size="5" width="100%" color="white" style="margin-top: 75px;">
+<p class="bodyText" style="font-size: 30px;"><span style="color: 53d9d1; font-weight: 700;">Section 1: </span>House Price Increase</p><br>
+<p class="project-page-text">
+This section presents the nature of the price increases seen in the property market. The choropleth app is hosted on Heroku which uses the code found in a different reposistory called <a href="https://github.com/ujwalgurung1/Property" target="_blank" style="color: rgb(19, 117, 197);">Property</a>. 
+The year change be selected and changed using the slider and there is also a hover utlitly to identify the region and the price. The data was obtained from gov.uk.
+There were some issues with creating the app. Initillay I approached this challenge using various tools such as plotly and follium. However, I came across a variety of errors.
+</p>
 
 <container class="bcontainer">
-
-<!--Chart 1 showing covid cases by region -->
-    <div class="chart" id="chart1">
-        <script>
-          var myChart1 = "charts/ukregioncovidchart.json";
-          vegaEmbed('#chart1', myChart1);
-        </script>
-    </div>
-
-<!--Chart 2 showing UK productivity levels over time -->
-<div class="chart" id="chart2">
-  <script>
-    var myChart2 = "charts/ukproductivity.json";
-    vegaEmbed('#chart2', myChart2);
-  </script>
+  <!--Chart 15-->
 </div>
+<embed type="html" src="https://datascienceproject2000.herokuapp.com/working" width="1200" height="1000">
+</div>
+
 </container>
 
 
