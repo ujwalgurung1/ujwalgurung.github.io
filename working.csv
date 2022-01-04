@@ -1,0 +1,271 @@
+regionname,year1,houseregionmedianprice
+East Midlands,1995,45950
+East Midlands,1996,46498.75
+East Midlands,1997,49237.5
+East Midlands,1998,52375
+East Midlands,1999,55625
+East Midlands,2000,59975
+East Midlands,2001,66862.5
+East Midlands,2002,78061.25
+East Midlands,2003,97487.5
+East Midlands,2004,119813
+East Midlands,2005,130612.5
+East Midlands,2006,134500
+East Midlands,2007,141642.5
+East Midlands,2008,142250
+East Midlands,2009,133625
+East Midlands,2010,138250
+East Midlands,2011,137498.75
+East Midlands,2012,137209
+East Midlands,2013,139625
+East Midlands,2014,146625
+East Midlands,2015,156000
+East Midlands,2016,164437.5
+East Midlands,2017,175998.75
+East Midlands,2018,185362.5
+East Midlands,2019,192125
+East Midlands,2020,198737.5
+East Midlands,2021,213500
+East of England,1995,57500
+East of England,1996,57737.5
+East of England,1997,61250
+East of England,1998,66925
+East of England,1999,72747.5
+East of England,2000,82125
+East of England,2001,94111.25
+East of England,2002,114625
+East of England,2003,137875
+East of England,2004,157197.5
+East of England,2005,167998.75
+East of England,2006,173750
+East of England,2007,185237.5
+East of England,2008,190250
+East of England,2009,176250
+East of England,2010,187000
+East of England,2011,190498.75
+East of England,2012,190737.5
+East of England,2013,196750
+East of England,2014,207500
+East of England,2015,228250
+East of England,2016,248750
+East of England,2017,272000
+East of England,2018,282498.75
+East of England,2019,287125
+East of England,2020,295000
+East of England,2021,318000
+London,1995,72950
+London,1996,74750
+London,1997,82373.75
+London,1998,92612.5
+London,1999,108487.5
+London,2000,131125
+London,2001,147750
+London,2002,169618.75
+London,2003,192875
+London,2004,213000
+London,2005,227748.75
+London,2006,238000
+London,2007,252749.75
+London,2008,265250
+London,2009,250000
+London,2010,276875
+London,2011,291387.5
+London,2012,295612.5
+London,2013,314520.63
+London,2014,347250
+London,2015,386250
+London,2016,430375
+London,2017,455000
+London,2018,466875
+London,2019,470000
+London,2020,483479.5
+London,2021,507000
+North East,1995,42310
+North East,1996,43362.5
+North East,1997,46111.25
+North East,1998,47500
+North East,1999,49500
+North East,2000,51750
+North East,2001,53312.5
+North East,2002,58362.5
+North East,2003,70362.5
+North East,2004,89000
+North East,2005,103973.38
+North East,2006,115250
+North East,2007,121125
+North East,2008,122000
+North East,2009,118998.75
+North East,2010,122987.5
+North East,2011,119612.5
+North East,2012,118500
+North East,2013,120875
+North East,2014,124973.13
+North East,2015,130412.5
+North East,2016,133362.5
+North East,2017,135250
+North East,2018,138873.75
+North East,2019,141000
+North East,2020,142750
+North East,2021,147000
+North West,1995,45000
+North West,1996,45517.5
+North West,1997,48125
+North West,1998,49850
+North West,1999,52158.75
+North West,2000,55500
+North West,2001,58737.5
+North West,2002,66112.5
+North West,2003,78750
+North West,2004,98284
+North West,2005,115625
+North West,2006,123473.75
+North West,2007,132487.5
+North West,2008,133100
+North West,2009,126750
+North West,2010,130500
+North West,2011,128375
+North West,2012,129000
+North West,2013,130487.5
+North West,2014,135875
+North West,2015,141875
+North West,2016,147250
+North West,2017,154113
+North West,2018,159750
+North West,2019,164835.75
+North West,2020,171250
+North West,2021,181250
+South East,1995,65000
+South East,1996,66812.5
+South East,1997,71862.5
+South East,1998,79625
+South East,1999,88000
+South East,2000,103612.5
+South East,2001,120750
+South East,2002,137750
+South East,2003,161975
+South East,2004,178500
+South East,2005,190000
+South East,2006,197250
+South East,2007,212487.5
+South East,2008,219625
+South East,2009,203250
+South East,2010,219500
+South East,2011,224725
+South East,2012,225050
+South East,2013,232750
+South East,2014,243237.5
+South East,2015,260625
+South East,2016,287461.25
+South East,2017,308237.5
+South East,2018,319250
+South East,2019,322250
+South East,2020,330750
+South East,2021,360000
+South West,1995,55000
+South West,1996,56062.5
+South West,1997,59237.5
+South West,1998,64375
+South West,1999,70350
+South West,2000,80625
+South West,2001,91487.5
+South West,2002,111375
+South West,2003,136975
+South West,2004,156475
+South West,2005,169337.5
+South West,2006,173487.5
+South West,2007,185748.75
+South West,2008,190000
+South West,2009,176250
+South West,2010,184500
+South West,2011,187000
+South West,2012,186000
+South West,2013,188987.5
+South West,2014,196623.75
+South West,2015,210737.5
+South West,2016,223911.88
+South West,2017,237875
+South West,2018,247678.13
+South West,2019,251499.88
+South West,2020,260000
+South West,2021,282000
+Wales,1995,44000
+Wales,1996,44625
+Wales,1997,46737.5
+Wales,1998,48750
+Wales,1999,51250
+Wales,2000,55375
+Wales,2001,58737.5
+Wales,2002,66298.75
+Wales,2003,80862.5
+Wales,2004,103625
+Wales,2005,122737.5
+Wales,2006,128987.5
+Wales,2007,137750
+Wales,2008,138250
+Wales,2009,131400
+Wales,2010,134250
+Wales,2011,132100
+Wales,2012,132750
+Wales,2013,133625
+Wales,2014,137250
+Wales,2015,142475
+Wales,2016,147125
+Wales,2017,150500
+Wales,2018,155625
+Wales,2019,160243.13
+Wales,2020,166250
+Wales,2021,175000
+West Midlands,1995,49500
+West Midlands,1996,50112.5
+West Midlands,1997,53375
+West Midlands,1998,55812.5
+West Midlands,1999,59175
+West Midlands,2000,65019
+West Midlands,2001,72125
+West Midlands,2002,83487.5
+West Midlands,2003,100750
+West Midlands,2004,122123.75
+West Midlands,2005,132500
+West Midlands,2006,138625
+West Midlands,2007,145375
+West Midlands,2008,145500
+West Midlands,2009,139987.5
+West Midlands,2010,145625
+West Midlands,2011,144500
+West Midlands,2012,144312.5
+West Midlands,2013,147736.25
+West Midlands,2014,153375
+West Midlands,2015,160748.75
+West Midlands,2016,167123.75
+West Midlands,2017,176998.75
+West Midlands,2018,186500
+West Midlands,2019,193748.75
+West Midlands,2020,201737.5
+West Midlands,2021,217500
+Yorkshire and The Humber,1995,45500
+Yorkshire and The Humber,1996,45925
+Yorkshire and The Humber,1997,48111.25
+Yorkshire and The Humber,1998,49612.5
+Yorkshire and The Humber,1999,51500
+Yorkshire and The Humber,2000,54975
+Yorkshire and The Humber,2001,58475
+Yorkshire and The Humber,2002,65237.5
+Yorkshire and The Humber,2003,80611.25
+Yorkshire and The Humber,2004,101000
+Yorkshire and The Humber,2005,117348.75
+Yorkshire and The Humber,2006,124250
+Yorkshire and The Humber,2007,132875
+Yorkshire and The Humber,2008,133750
+Yorkshire and The Humber,2009,127249.38
+Yorkshire and The Humber,2010,134000
+Yorkshire and The Humber,2011,131625
+Yorkshire and The Humber,2012,130000
+Yorkshire and The Humber,2013,131737.5
+Yorkshire and The Humber,2014,137623.75
+Yorkshire and The Humber,2015,142125
+Yorkshire and The Humber,2016,148112.5
+Yorkshire and The Humber,2017,154000
+Yorkshire and The Humber,2018,158750
+Yorkshire and The Humber,2019,163362.5
+Yorkshire and The Humber,2020,169375
+Yorkshire and The Humber,2021,180000
