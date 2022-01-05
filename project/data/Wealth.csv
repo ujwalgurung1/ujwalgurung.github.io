@@ -1,28 +1,19 @@
 Country,Indicator,Value
+Australia,p0p50,.0616
+Australia,p90p100,.5563
+Australia,p99p100,.2269
 Austria,p0p50,.0315
 Austria,p90p100,.6142
 Austria,p99p100,.2985
 Belgium,p0p50,.0747
 Belgium,p90p100,.5209
 Belgium,p99p100,.1481
-Bulgaria,p0p50,.0574
-Bulgaria,p90p100,.5780999999999999
-Bulgaria,p99p100,.2451
-Croatia,p0p50,.0624
-Croatia,p90p100,.5504
-Croatia,p99p100,.2193
-Cyprus,p0p50,.0411
-Cyprus,p90p100,.6637999999999999
-Cyprus,p99p100,.3213
-Czech Republic,p0p50,.0596
-Czech Republic,p90p100,.5706
-Czech Republic,p99p100,.2578
+Canada,p0p50,.0589
+Canada,p90p100,.5714
+Canada,p99p100,.2405
 Denmark,p0p50,.0403
 Denmark,p90p100,.5063
 Denmark,p99p100,.2146
-Estonia,p0p50,.0126
-Estonia,p90p100,.6644
-Estonia,p99p100,.327
 Finland,p0p50,.0205
 Finland,p90p100,.5576
 Finland,p99p100,.18
@@ -32,9 +23,6 @@ France,p99p100,.2605
 Germany,p0p50,.0339
 Germany,p90p100,.5899
 Germany,p99p100,.287
-Greece,p0p50,-.0188
-Greece,p90p100,.6006
-Greece,p99p100,.226
 Hungary,p0p50,.039
 Hungary,p90p100,.6727
 Hungary,p99p100,.3347
@@ -44,21 +32,21 @@ Ireland,p99p100,.2323
 Italy,p0p50,.0995
 Italy,p90p100,.4767
 Italy,p99p100,.1803
+Japan,p0p50,.0575
+Japan,p90p100,.5776
+Japan,p99p100,.2446
 Latvia,p0p50,.0596
 Latvia,p90p100,.6055
 Latvia,p99p100,.2852
-Lithuania,p0p50,.06
-Lithuania,p90p100,.5649999999999999
-Lithuania,p99p100,.2325
 Luxembourg,p0p50,.0434
 Luxembourg,p90p100,.5935
 Luxembourg,p99p100,.2878
-Malta,p0p50,.1037
-Malta,p90p100,.5382
-Malta,p99p100,.2128
 Netherlands,p0p50,.0898
 Netherlands,p90p100,.4771
 Netherlands,p99p100,.1615
+New Zealand,p0p50,.0614
+New Zealand,p90p100,.5573
+New Zealand,p99p100,.2262
 Norway,p0p50,.0362
 Norway,p90p100,.5221
 Norway,p99p100,.227
@@ -68,9 +56,6 @@ Poland,p99p100,.2981
 Portugal,p0p50,.0353
 Portugal,p90p100,.6058
 Portugal,p99p100,.2554
-Romania,p0p50,.0599
-Romania,p90p100,.5653
-Romania,p99p100,.2328
 Slovakia,p0p50,.074
 Slovakia,p90p100,.4966
 Slovakia,p99p100,.1746
@@ -83,6 +68,12 @@ Spain,p99p100,.2393
 Sweden,p0p50,.0598
 Sweden,p90p100,.5689
 Sweden,p99p100,.2548
+Switzerland,p0p50,.0377
+Switzerland,p90p100,.6225000000000001
+Switzerland,p99p100,.304
+USA,p0p50,.015
+USA,p90p100,.7067
+USA,p99p100,.3487
 United Kingdom,p0p50,.0466
 United Kingdom,p90p100,.5699
 United Kingdom,p99p100,.2104
