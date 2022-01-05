@@ -39,7 +39,7 @@
 <!-- /////////////////// INTRO TEXT //////////////////////////////////// -->
 
 <h3>UK Economy - The Impact of House Prices </h3>
-<p class="project-page-text"><span style="font-weight: 700;">Housing - </span> 
+<p class="projecttext"><span style="font-weight: 700;">Housing - </span> 
 
 Is a rising price of housing a net benefit on the UK Economy?<br>
 
@@ -51,29 +51,81 @@ House Prices which affects wealth inequlity , so this project will simply build 
 
 <hr size="5" width="100%" color="white" style="margin-top: 75px;">
 <p class="bodyText" style="font-size: 30px;"><span style="color: 53d9d1; font-weight: 700;">Section 1: </span>House Price Increase</p><br>
-<p class="project-page-text">
+<p class="projecttext">
 This section presents the nature of the price increases seen in the property market. The choropleth app is hosted on Heroku which uses the code found in a different reposistory called <a href="https://github.com/ujwalgurung1/Property" target="_blank" style="color: rgb(19, 117, 197);">Property</a>. 
 The year change be selected and changed using the slider and there is also a hover utlitly to identify the region and the price.The data was obtained from gov.uk.
-There were some issues with creating the app. Initillay I approached this challenge using various tools such as plotly and follium. However, I came across a variety of errors and therefore used the app approach.
+There were some issues with creating the app. Initillay I approached this challenge using various tools such as plotly and follium. However, I deduced that the librarys were not fit for purpose.
+As a result I had to approach this task using a variety of funactions and the Bokeh library. creating interactive visualizations for modern web browsers. Which is a library that helps you build beautiful graphics, ranging from simple plots to complex dashboards with streaming datasets.
+With regards to replicability, the basecode can also be used with the lastest data from the ONS given that the code cleans the raw data provided all that is needed is a geojson file of England.
+
 </p>
 
 <container class="bcontainer">
-  <!--Chart 15-->
-  </div>
-  <embed type="text/html" src="https://datascienceproject2000.herokuapp.com/working" width="900" height="800">
-  </div>
-  </container>
+
+</div>
+<embed type="text/html" src="https://datascienceproject2000.herokuapp.com/working" width="900" height="800">
+</div>
+  
+<p class="projecttext">
+  As you go through time it is clear to see the there is a large disparity in the distribution of house prices in England with the southern regions such as London and the South East benefit the most from price increases. 
+  With regards to replicability and reliabilty the data can be obtained from the ONS and run through the original .py file the the app is in.
+  The server that hosts this app is called Heroku. The data is updated yearly by the ONS and therefore must be updated manually as ther currently is no API.
+  However, this is not a significant issue given the frequency of data, as the data only needs to be updated once a year.
+  This data was downloaded from a CSV file, which was then run thorugh a python programme using plotly.
+  
+</p>
+
+</container>
+
+
+
 
 
 <hr size="5" width="100%" color="white" style="margin-top: 75px;">
-<p class="bodyText" style="font-size: 30px;"><span style="color: 53d9d1; font-weight: 700;">Section 2: </span></p><br>
-<p class="project-page-text">
-This section presents the nature of the price increases seen in the property market. The choropleth app is hosted on Heroku which uses the code found in a different reposistory called <a href="https://github.com/ujwalgurung1/Property" target="_blank" style="color: rgb(19, 117, 197);">Property</a>. 
-The year change be selected and changed using the slider and there is also a hover utlitly to identify the region and the price.The data was obtained from gov.uk.
-There were some issues with creating the app. Initillay I approached this challenge using various tools such as plotly and follium. However, I came across a variety of errors and therefore used the app approach.
+<p class="bodyText" style="font-size: 30px;"><span style="color: 53d9d1; font-weight: 700;">Section 2: The Motivation</span></p><br>
+<p class="projecttext">
+  Rising house prices are causing a housing affordability crisis in many countries, but at the same time they are increasing homeowners’ wealth. Governments are faced with the challenge to encourage households to build up housing wealth while also fostering access to good-quality affordable housing.
+  Housing is the principle source of household wealth in most countries around the world.
 </p>
 
+<container class="bcontainer">
 
+<div>
+  <embed type="text/html" src="project/charts/WealthComposition.html" width="750" height="750">
+  </div>
+
+
+<p class="projecttext">
+  The data is very replicable and reliable. The python script can be run yearly.
+  
+</p>
+
+</container>
+
+
+
+
+
+<hr size="5" width="100%" color="white" style="margin-top: 75px;">
+<p class="bodyText" style="font-size: 30px;"><span style="color: 53d9d1; font-weight: 700;">Section 3: Homeownership </span></p><br>
+<p class="projecttext">
+  Rising house prices are causing a housing affordability crisis in many countries, but at the same time they are increasing homeowners’ wealth. Governments are faced with the challenge to encourage households to build up housing wealth while also fostering access to good-quality affordable housing.
+  Housing is the principle source of household wealth in most countries around the world.
+</p>
+
+<container class="bcontainer">
+
+<div>
+  <embed type="text/html" src="project/charts/WealthComposition.html" width="750" height="750">
+  </div>
+
+
+<p class="projecttext">
+  The data is very replicable and reliable. The python script can be run yearly.
+  
+</p>
+
+</container>
 
 
 
