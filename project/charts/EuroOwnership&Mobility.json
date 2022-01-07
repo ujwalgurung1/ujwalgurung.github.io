@@ -1,0 +1,112 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": {
+      "text": "Europe: Home Ownership and Social Mobility",
+      "subtitle": "2012-2020, Hover over points for detailed information",
+      "subtitleFontStyle":"poppins",
+      "subtitleFontStyle":"italic",
+      "fontSize": 20,
+      "subtitleFontSize":12,
+      "anchor": "start",
+      "color": "black",
+      "titleFontStyle": "popins"
+    },
+    "data": {
+      "url": "https://raw.githubusercontent.com/ujwalgurung1/ujwalgurung1.github.io/main/project/data/EuropeOwnership%26Mobility.csv",
+      "format":{"type": "csv"}
+    },
+    "width": "container",
+    "height": 310,
+    "layer": [
+      {
+        "mark": {
+          "type": "point",
+          "filled": false,
+          "size": 80
+        },
+        "encoding": {
+          "x": {
+            "field": "Home ownership rate(%)",
+            "type": "quantitative",
+            "title": "Home ownership rate(%)",
+            "titleFontStyle": "popins",
+            "scale": {"domain": [40, 100]}
+          },
+          "y": {
+            "field": "Index Score",
+            "type": "quantitative",
+            "title": "Index Score",
+            "titleFontStyle": "popins",
+            "scale": {"domain": [50, 90]}
+          },
+            "color": {
+              "field": "Country",
+              "type": "nominal",
+              "legend": null,
+              "scale": {"scheme": "inferno"}
+          },
+             "tooltip": [
+              {"field": "Country", "type": "nominal", "title": "Country"},
+              {"field": "Index Score", "type": "quantitative", "title": "Index Score"},
+              {"field": "Home ownership rate(%)", "type": "quantitative", "title": "Home ownership rate(%)"}
+          ]
+        }
+      },
+      
+      {
+        "mark": {
+          "type": "line",
+          "color": "#de2d26"
+        },
+        "transform": [
+          {
+            "regression": "Index Score",
+            "on": "Home ownership rate(%)"
+          }
+        ],
+        "encoding": {
+          "x": {
+            "field": "Home ownership rate(%)",
+            "type": "quantitative",
+            "axis": {
+               "tickCount": 5,
+               "grid": false
+  
+            }
+          
+          },
+          "y": {
+            "field": "Index Score",
+            "type": "quantitative",
+            "axis": {
+               "tickCount": 5,
+               "grid": false
+  
+            }
+            
+          }
+        }
+      },
+      {
+        "transform": [
+          {
+            "regression": "Index Score",
+            "on": "Home ownership rate(%)",
+            "params": true
+          },
+          {"calculate": "'R²: '+format(datum.rSquared, '.2f')", "as": "R2"}
+        ],
+        "mark": {
+          "type": "text",
+          "size": 14,
+          "color": "#de2d26",
+          "x": "width",
+          "align": "right",
+          "y": -5
+        },
+        "encoding": {
+          "text": {"type": "nominal", "field": "R2"}
+        }
+      }
+    ]
+  }
