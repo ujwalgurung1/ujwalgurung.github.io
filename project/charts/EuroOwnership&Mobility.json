@@ -1,8 +1,8 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "title": {
-      "text": "Europe: Home Ownership and Social Mobility",
-      "subtitle": "link between homeownership rates and wealth inequality. ",
+      "text": "Home Ownership and Social Mobility",
+      "subtitle": "Data looking at European Countries",
       "subtitleFontStyle":"poppins",
       "subtitleFontStyle":"italic",
       "fontSize": 20,
