@@ -85,7 +85,7 @@ However, several factors affect social mobility and therefore the project aims t
 
 
 
-<p class="bodyText" style="font-size: 30px;"><span style="color: 53d9d1; font-weight: 700;">Home: Shelter or Asset?</span></p><br>
+<p class="bodyText" style="font-size: 30px;"><span style="color: 53d9d1; font-weight: 700;">Housing: Shelter or Asset?</span></p><br>
 <p class="projecttext">
   Rising house prices are also causing a housing affordability crisis in other countries, but at the same time they are increasing homeowners’ wealth. 
   Governments are faced with the challenge to encourage households to build up housing wealth while also promoting access to affordable housing. 
@@ -102,7 +102,7 @@ However, several factors affect social mobility and therefore the project aims t
 
 <p class="projecttext">
   The data was obtained downloaded manually from the OECD. The database in the OECD had many gaps in between years.
-  The poor API integration on the website also mean that it was difficult to obtain data using XML requests.
+  The poor API integration on the website also meant that it was difficult to obtain data using XML requests.
   The code can be found <a target=”_blank” href="https://github.com/ujwalgurung1/ujwalgurung1.github.io/blob/main/project/code/WealthComposition.ipynb" style="color: #53d9d1;">here</a>
   
 </p>
@@ -117,6 +117,7 @@ However, several factors affect social mobility and therefore the project aims t
   It comes to no surprise that countries with higher homeownership rates display lower wealth inequality. 
   In a static perspective housing flattens the wealth distribution and reduces inequality.
   The code can be found <a target=”_blank” href="https://github.com/ujwalgurung1/ujwalgurung1.github.io/blob/main/project/code/Wealth.ipynb" style="color: #53d9d1;">here</a>
+  . I created the Trellis chart using Plotly Express to produce an interactive chart.
 </p>
 
 <container class="bcontainer">
@@ -129,6 +130,8 @@ However, several factors affect social mobility and therefore the project aims t
     However, other studies have shown a closer relationship with higher R-Squared values.
     The difference can be explained by the lack of data where I lack a Bottom 40% share of wealth value.
     Looking at the Bottom 50% share higher homeownership rates seems to be related to a higher share of wealth.
+    The regressions were created using the scikit-learn library which uses Machine Learning to provide a fit of the obersvations.
+
   </p>
   
 </container>
@@ -144,13 +147,13 @@ However, several factors affect social mobility and therefore the project aims t
      
   
 <p class="projecttext">
-  The data is very replicable. The python script can be run yearly with downloaded data from the World Inequality Database.
+  The python script can be run yearly with downloaded data from the World Inequality Database.
   Once downloaded the Python code will clean data and produce a Trelis chart. 
   The code utlises the BeautifulSoup library on Python to scrape data from Wikipedia. 
   Although Wikipedia is used the data is reliable. 
   This is as the majority of the data is derived from Eurostat, Trading Economics & the UN Population Fund which can be found in reports.
   I had to use Wikipedia as there are not a lot of sources that provide data of all the countries required.
-  The code for the regressions and scraping can be found <a target=”_blank” href="https://github.com/ujwalgurung1/ujwalgurung1.github.io/blob/main/project/code/WealthComposition.ipynb" style="color: #53d9d1;">here</a>
+  The code for the regressions and scraping can be found <a target=”_blank” href="https://github.com/ujwalgurung1/ujwalgurung1.github.io/blob/main/project/code/Wealth.ipynb" style="color: #53d9d1;">here</a>
     
 </container>    
   
@@ -207,7 +210,7 @@ However, several factors affect social mobility and therefore the project aims t
 
 <p class="projecttext">
   The data is very reliable as it is derived from the Social Mobility Commission. The latest report was from 2017 and so the values may not be up to date.
-  The the results could have been improved if we split the data into "city" and "non-city" regions or other such characteristcs.
+  The results could have been improved if we split the data into "city" and "non-city" regions or other such charateristics.
   A Kepler Map for Social Mobility is available <a target=”_blank” href="project/charts/KeplerMoblity.html" style="color: #53d9d1;">here</a>
 
   
@@ -217,13 +220,13 @@ However, several factors affect social mobility and therefore the project aims t
 
 <p class="bodyText" style="font-size: 30px;"><span style="color: 53d9d1; font-weight: 700;">Conclusion</span></p><br>
 <p class="projecttext">
-  To conclude Home Ownership and Social Mobility are weakly negatively correlated. 
+  To conclude Home Ownership and Social Mobility at best can be considered weakly correlated. 
   Even if wealth inequality is lower where homeownership is more widespread, 
   encouraging homeownership is not the appropriate policy response to help low and middle-income families accumulate wealth.
   Promoting residential mobility is an important policy challenge, especially in England where there is a large price gap between regions. 
-  This means that there could be labour market–skills mismatches where people from lower house price regions cannot move to a higher one. 
-  Mobility can cushion labour-market shocks and reduce regional inequalities – for instance by alleviating local imbalances between labour demand and supply and by promoting the optimal match between workers and jobs. 
-  This project stimulates further in the fact the School score aspect of the overall score showed a higher albeit still weak link. 
+  This means that there could be labour market–skills mismatches where skilled people from lower house price regions cannot move to a higher one. 
+  Mobility acts as a cushion, dampening labour-market shocks and reduce regional inequalities.
+  This project stimulates further research in the fact the School score aspect of the overall Mobility score showed a higher albeit still weak link. 
   This relationship should be explored further.
 </p>
 
