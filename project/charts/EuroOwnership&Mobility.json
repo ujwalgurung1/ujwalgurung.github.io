@@ -15,7 +15,7 @@
       "url": "https://raw.githubusercontent.com/ujwalgurung1/ujwalgurung1.github.io/main/project/data/EuropeOwnership%26Mobility.csv",
       "format":{"type": "csv"}
     },
-    "width": 400,
+    "width": 300,
     "height": 300,
     "layer": [
       {
